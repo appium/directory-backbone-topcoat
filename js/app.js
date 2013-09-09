@@ -6,7 +6,7 @@ var app = {
     adapters: {}
 };
 
-$(document).on("ready", function () {
+$(document).on("deviceready", function () {
     app.router = new app.routers.AppRouter();
     app.utils.templates.load(["HomeView", "EmployeeView", "EmployeeListItemView", "ReportsView", "MapView"],
         function () {
