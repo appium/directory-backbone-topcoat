@@ -40,10 +40,16 @@ app.adapters.employee = (function () {
                 lastName: nsplit[1],
                 managerId: 0,
                 managerName: "",
+                reports: 0,
+                title: "",
+                department: "",
                 cellPhone: "",
                 officePhone: "",
+                email: "",
                 city: "",
-                pic: ""
+                pic: "",
+                twitterId: "",
+                blog: ""
             };
         },
 
